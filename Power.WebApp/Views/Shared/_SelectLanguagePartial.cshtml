@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Builder;
+@using Microsoft.AspNetCore.Localization;
+@using Microsoft.Extensions.Options;
+@using Microsoft.AspNetCore.Mvc.Localization;
+@using System.Globalization;
+
+@inject IOptions<RequestLocalizationOptions> locOptions
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}";
+}
+<div>
+    @if (CultureInfo.CurrentCulture.Name.StartsWith("ar"))
+    {
+
+        <a class="lang" asp-controller="Home" asp-action="SetLanguage" asp-route-returnUrl="@returnUrl" asp-route-culture="en-US">En <i class="fas fa-language"></i></a>
+    }
+    else
+    {
+        <a class="lang" asp-controller="Home" asp-action="SetLanguage" asp-route-returnUrl="@returnUrl" asp-route-culture="ar-EG"><i class="fas fa-language"></i> عربي</a>
+    }
+</div>

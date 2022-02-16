@@ -1,0 +1,17 @@
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Core.deps.json
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Core.dll
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\ref\Power.Core.dll
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Core.pdb
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Data.dll
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Utilities.dll
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Data.pdb
+E:\Study\Power API\Power\Power.Core\bin\Debug\net5.0\Power.Utilities.pdb
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.csproj.AssemblyReference.cache
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.AssemblyInfoInputs.cache
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.AssemblyInfo.cs
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.csproj.CoreCompileInputs.cache
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.csproj.CopyComplete
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.dll
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\ref\Power.Core.dll
+E:\Study\Power API\Power\Power.Core\obj\Debug\net5.0\Power.Core.pdb

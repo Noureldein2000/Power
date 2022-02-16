@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+
+@inject IOptions<RequestLocalizationOptions> locOption
+@inject IStringLocalizer<PowerWebResource> _localizer
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+}
+
+<a class="btn btn-primary mb-2" asp-action="Create" asp-controller="Culture">@_localizer["Create"].Value</a>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <td>Culture</td>
+        <td>@requestCulture.RequestCulture.Culture</td>
+    </tr>
+    <tr>
+        <td>Culture UI</td>
+        <td>@requestCulture.RequestCulture.UICulture</td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>@DateTime.Now.ToLongDateString()</td>
+    </tr>
+    <tr>
+        <td>Currency</td>
+        <td>@(9985.00.ToString("c"))</td>
+    </tr>
+
+</table>

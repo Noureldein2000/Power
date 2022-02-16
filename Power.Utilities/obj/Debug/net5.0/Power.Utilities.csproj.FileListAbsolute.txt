@@ -1,0 +1,12 @@
+E:\Study\Power API\Power\Power.Utilities\bin\Debug\net5.0\Power.Utilities.deps.json
+E:\Study\Power API\Power\Power.Utilities\bin\Debug\net5.0\Power.Utilities.dll
+E:\Study\Power API\Power\Power.Utilities\bin\Debug\net5.0\ref\Power.Utilities.dll
+E:\Study\Power API\Power\Power.Utilities\bin\Debug\net5.0\Power.Utilities.pdb
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.csproj.AssemblyReference.cache
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.AssemblyInfoInputs.cache
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.AssemblyInfo.cs
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.csproj.CoreCompileInputs.cache
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.dll
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\ref\Power.Utilities.dll
+E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.pdb

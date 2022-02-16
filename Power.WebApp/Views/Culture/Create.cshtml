@@ -1,0 +1,14 @@
+﻿@model CreateCultureVM
+@inject IStringLocalizer<PowerWebResource> _loclizer
+<form asp-action="Create" method="post" asp-controller="Culture">
+    <div class="form-group">
+        <label asp-for="Name">@_loclizer["Name"].Value</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <input type="submit" class="btn btn-outline-primary" value="@_loclizer["Save"].Value" />
+</form>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
