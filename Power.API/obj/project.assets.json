@@ -8484,11 +8484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Study\\Power API\\Power\\Power.API\\Power.API.csproj",
+      "projectUniqueName": "E:\\Projects\\Power-GitHub\\Power\\Power.API\\Power.API.csproj",
       "projectName": "Power.API",
-      "projectPath": "E:\\Study\\Power API\\Power\\Power.API\\Power.API.csproj",
+      "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.API\\Power.API.csproj",
       "packagesPath": "C:\\Users\\nour.hussein\\.nuget\\packages\\",
-      "outputPath": "E:\\Study\\Power API\\Power\\Power.API\\obj\\",
+      "outputPath": "E:\\Projects\\Power-GitHub\\Power\\Power.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8508,14 +8508,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj": {
-              "projectPath": "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj"
+            "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj": {
+              "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj"
             },
-            "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj": {
-              "projectPath": "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj"
+            "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj": {
+              "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj"
             },
-            "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj": {
-              "projectPath": "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj"
+            "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj": {
+              "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj"
             }
           }
         }

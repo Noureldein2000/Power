@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj": {}
+    "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj": {}
   },
   "projects": {
-    "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj": {
+    "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj",
+        "projectUniqueName": "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj",
         "projectName": "Power.WebApp",
-        "projectPath": "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj",
+        "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj",
         "packagesPath": "C:\\Users\\nour.hussein\\.nuget\\packages\\",
-        "outputPath": "E:\\Study\\Power API\\Power\\Power.WebApp\\obj\\",
+        "outputPath": "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

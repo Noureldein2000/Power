@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eYkDBZGgjOywTodf8uNoNeWWRJgoBdqBDI6TRwTmlLhw7TWocbJdmex3LnofSebx6lOAegxbZIeE6efzlGZQzQ==",
+  "dgSpecHash": "VYyNwJJhADpVXZ74nJS/n7OFu+7A6QrmZcZzw1Y4mIMBjCQw2WjqbpmzqdKFHUnkCeO/x5t2hNMwGC4ppb42jQ==",
   "success": true,
-  "projectFilePath": "E:\\Study\\Power API\\Power\\Power.API\\Power.API.csproj",
+  "projectFilePath": "E:\\Projects\\Power-GitHub\\Power\\Power.API\\Power.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nour.hussein\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\nour.hussein\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

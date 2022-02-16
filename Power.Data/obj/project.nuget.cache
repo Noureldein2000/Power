@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sBYoNk/ES+YRhnUGZ2C3ZAR787JZhfKocIojaL8kIW0hx5JK0YHwIzjGT1IhNLR8WIL1nxLbZfbWXJIlp7BKjw==",
+  "dgSpecHash": "EWlaiR8CRAqyCMrEkge/c8/Pb8x7ftcl02K8xgFVIxj2cuDwTJ8lVXjIBDTRXotffV4u30tgx53pUTYVJjdbMQ==",
   "success": true,
-  "projectFilePath": "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj",
+  "projectFilePath": "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nour.hussein\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nour.hussein\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
