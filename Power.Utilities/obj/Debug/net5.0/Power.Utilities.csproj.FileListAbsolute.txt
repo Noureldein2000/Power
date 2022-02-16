@@ -10,3 +10,15 @@ E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.csproj
 E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.dll
 E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\ref\Power.Utilities.dll
 E:\Study\Power API\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.pdb
+E:\Projects\Power-GitHub\Power\Power.Utilities\bin\Debug\net5.0\Power.Utilities.deps.json
+E:\Projects\Power-GitHub\Power\Power.Utilities\bin\Debug\net5.0\Power.Utilities.dll
+E:\Projects\Power-GitHub\Power\Power.Utilities\bin\Debug\net5.0\ref\Power.Utilities.dll
+E:\Projects\Power-GitHub\Power\Power.Utilities\bin\Debug\net5.0\Power.Utilities.pdb
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.csproj.AssemblyReference.cache
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.AssemblyInfoInputs.cache
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.AssemblyInfo.cs
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.csproj.CoreCompileInputs.cache
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.dll
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\ref\Power.Utilities.dll
+E:\Projects\Power-GitHub\Power\Power.Utilities\obj\Debug\net5.0\Power.Utilities.pdb

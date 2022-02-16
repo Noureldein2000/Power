@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+JVTtRujks+1rjUWsC4kPa0bdZxlXdW7IqlOJafLFk1Ri1v40ia6bBi/ZTNo6WKDaQhGw6fngVcXf1tZHPC2gQ==",
+  "dgSpecHash": "nTZcbccEEZcjWGQ4bw2NOWKmox1+nE7YMH3+sB8z/F3RBq5mYt5jn40/H8KLrfH+REDP4erYMzeGlHXUVdYkoA==",
   "success": true,
-  "projectFilePath": "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj",
+  "projectFilePath": "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nour.hussein\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "C:\\Users\\nour.hussein\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",

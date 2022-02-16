@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LV1D6Xwv6xfU6j2ThoS0U1Eb1w5k92qi0wDiVvUpHHVg4O4B3Lzf+H8mHaJcewie2iZtbPTP5HDRaxHohMvLIA==",
+  "dgSpecHash": "punXdIt4kUOVPw9loVeFAE4mgBPhBEVx7LOpC9RcTnoiGzk78unRte7JW81By9e24jF2LY7OJ2zLZKVkAPsfpw==",
   "success": true,
-  "projectFilePath": "E:\\Study\\Power API\\Power\\Power.WebApp\\Power.WebApp.csproj",
+  "projectFilePath": "E:\\Projects\\Power-GitHub\\Power\\Power.WebApp\\Power.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nour.hussein\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\nour.hussein\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

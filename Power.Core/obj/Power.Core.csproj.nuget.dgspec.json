@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj": {}
+    "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj": {}
   },
   "projects": {
-    "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj": {
+    "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj",
+        "projectUniqueName": "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj",
         "projectName": "Power.Core",
-        "projectPath": "E:\\Study\\Power API\\Power\\Power.Core\\Power.Core.csproj",
+        "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\Power.Core.csproj",
         "packagesPath": "C:\\Users\\nour.hussein\\.nuget\\packages\\",
-        "outputPath": "E:\\Study\\Power API\\Power\\Power.Core\\obj\\",
+        "outputPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj": {
-                "projectPath": "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj"
+              "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj": {
+                "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj": {
+    "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj",
+        "projectUniqueName": "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj",
         "projectName": "Power.Data",
-        "projectPath": "E:\\Study\\Power API\\Power\\Power.Data\\Power.Data.csproj",
+        "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\Power.Data.csproj",
         "packagesPath": "C:\\Users\\nour.hussein\\.nuget\\packages\\",
-        "outputPath": "E:\\Study\\Power API\\Power\\Power.Data\\obj\\",
+        "outputPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Study\\Power API\\Power\\Power.Utilities\\Power.Utilities.csproj": {
-                "projectPath": "E:\\Study\\Power API\\Power\\Power.Utilities\\Power.Utilities.csproj"
+              "E:\\Projects\\Power-GitHub\\Power\\Power.Utilities\\Power.Utilities.csproj": {
+                "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Utilities\\Power.Utilities.csproj"
               }
             }
           }
@@ -158,14 +158,14 @@
         }
       }
     },
-    "E:\\Study\\Power API\\Power\\Power.Utilities\\Power.Utilities.csproj": {
+    "E:\\Projects\\Power-GitHub\\Power\\Power.Utilities\\Power.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Study\\Power API\\Power\\Power.Utilities\\Power.Utilities.csproj",
+        "projectUniqueName": "E:\\Projects\\Power-GitHub\\Power\\Power.Utilities\\Power.Utilities.csproj",
         "projectName": "Power.Utilities",
-        "projectPath": "E:\\Study\\Power API\\Power\\Power.Utilities\\Power.Utilities.csproj",
+        "projectPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Utilities\\Power.Utilities.csproj",
         "packagesPath": "C:\\Users\\nour.hussein\\.nuget\\packages\\",
-        "outputPath": "E:\\Study\\Power API\\Power\\Power.Utilities\\obj\\",
+        "outputPath": "E:\\Projects\\Power-GitHub\\Power\\Power.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
