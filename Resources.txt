@@ -1,0 +1,46 @@
+* Implemntation Generic Repository and UnitOfWork
+- links:
+https://pradeeploganathan.com/patterns/repository-and-unit-of-work-pattern-asp-net-core-3-1/
+
+https://www.programmingwithwolfgang.com/repository-and-unit-of-work-pattern/
+
+https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/
+
+https://www.c-sharpcorner.com/article/implementing-unit-of-work-and-repository-pattern-with-dependency-injection-in-n/
+
+--------------------------------------------------------------------------------------------------------------
+* Implemntation Jwt Authentication & Authorization ( Asp.Net Identity)
+- Links:
+https://www.youtube.com/watch?v=K7OjOcMUg2I&list=PL62tSREI9C-eYNE1Pyw0yv1tETs5V8WGd
+--------------------------------------------------------------------------------------------------------------
+*Implemntation Hashing
+- Links:
+https://programs.faltutech.com/2019/03/01/hash-a-password-and-verify-password-using-c-net-core-dot-net-core/
+--------------------------------------------------------------------------------------------------------------
+*Implemntation AutoMapper
+- Links:
+https://www.youtube.com/watch?v=GESnbz9l_G4&list=PL62tSREI9C-d9Y843OBs317_7OMluGABq&index=2
+
+https://docs.automapper.org/en/stable/Mapping-inheritance.html
+--------------------------------------------------------------------------------------------------------------
+*Implemntation Serilog
+- Links:
+https://www.youtube.com/watch?v=M6KR4icCliQ&list=PL62tSREI9C-d9Y843OBs317_7OMluGABq&index=3
+
+https://codewithmukesh.com/blog/serilog-in-aspnet-core-3-1/
+--------------------------------------------------------------------------------------------------------------
+*Implemntation Global Error Handling
+- Links:
+https://www.youtube.com/watch?v=tk1QK71DVtg
+https://www.youtube.com/watch?v=LYxtAimMwZQ
+https://www.c-sharpcorner.com/article/global-error-handling-in-asp-net-core-5/
+--------------------------------------------------------------------------------------------------------------
+*Implemntation Globalization and Loclization
+- Links:
+https://www.youtube.com/watch?v=PyCGEO4b6F0&list=PL62tSREI9C-cJtB90kxb76SDCpXKuOfUH
+https://codewithmukesh.com/blog/globalization-and-localization-in-aspnet-core/
+https://www.c-sharpcorner.com/article/globalization-and-localization-in-asp-net-core-mvc-3-1/
+--------------------------------------------------------------------------------------------------------------
+*Implemntation JwtRefresh Tokens
+- Links:
+https://www.youtube.com/watch?v=9AizXw95TTE&list=PL62tSREI9C-foV0zXVpW_f0JNtTD6Wv2W&index=1
