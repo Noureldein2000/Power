@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Model\**" />
+    <Content Remove="Model\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <None Remove="Model\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.13" />
@@ -26,10 +33,6 @@
     <ProjectReference Include="..\Power.Core\Power.Core.csproj" />
     <ProjectReference Include="..\Power.Data\Power.Data.csproj" />
     <ProjectReference Include="..\Power.WebApp\Power.WebApp.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Model\" />
   </ItemGroup>
 
 </Project>

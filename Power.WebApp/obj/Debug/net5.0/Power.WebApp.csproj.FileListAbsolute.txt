@@ -241,8 +241,8 @@ E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Razor\Views\_ViewSt
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.RazorTargetAssemblyInfo.cache
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.RazorTargetAssemblyInfo.cs
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.Views.pdb
+E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.csproj.CopyComplete
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.dll
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\ref\Power.WebApp.dll
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.pdb
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.genruntimeconfig.cache
-E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.csproj.CopyComplete

@@ -188,18 +188,18 @@ E:\Study\Power API\Power\Power.API\obj\Debug\net5.0\Power.API.dll
 E:\Study\Power API\Power\Power.API\obj\Debug\net5.0\ref\Power.API.dll
 E:\Study\Power API\Power\Power.API\obj\Debug\net5.0\Power.API.pdb
 E:\Study\Power API\Power\Power.API\obj\Debug\net5.0\Power.API.genruntimeconfig.cache
-E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\appsettings.Development.json
-E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\appsettings.json
-E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220120.json
-E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220123.json
-E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220124.json
-E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220214.json
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.WebApp.Views.dll
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.WebApp.Views.pdb
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.WebApp.deps.json
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.WebApp.runtimeconfig.json
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.WebApp.runtimeconfig.dev.json
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.WebApp.exe
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\appsettings.Development.json
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\appsettings.json
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220120.json
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220123.json
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220124.json
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220214.json
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.API.StaticWebAssets.xml
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.API.exe
 E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Power.API.deps.json

@@ -37,7 +37,7 @@ namespace Power.Core.Services.Implemenation
                 return "Invalid user or role";
 
             if (await _userManager.IsInRoleAsync(user, dto.RoleName))
-                return " User is already assigned to this role from develop branch by merged command !";
+                return " User is already assigned to this role !";
 
             var result = await _userManager.AddToRoleAsync(user, dto.RoleName);
 
