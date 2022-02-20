@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Power.API.Model;
 using Power.Core.DTOs;
 using Power.Core.Services.Interface;
 using System;
@@ -31,6 +32,8 @@ namespace Power.API.Controllers
             if (!result.IsAuthenticated)
                 return BadRequest(result.Message);
 
+            SetRefreshTokenInCookie(result.RefreshToken, result.RefreshTokenExpiration);
+
             return Ok(result);
         }
 
@@ -47,7 +50,6 @@ namespace Power.API.Controllers
 
             if (!string.IsNullOrEmpty(result.RefreshToken))
                 SetRefreshTokenInCookie(result.RefreshToken, result.RefreshTokenExpiration);
-
             return Ok(result);
         }
 
@@ -64,6 +66,35 @@ namespace Power.API.Controllers
                 return BadRequest(result);
 
             return Ok(model);
+        }
+
+        [HttpGet("ReFreshToken")]
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> ReFreshToken()
+        {
+            var refreshToken = Request.Cookies["RefreshToken"];
+
+            var result = await _authService.RefreshTokenAsync(refreshToken);
+
+            if (!result.IsAuthenticated)
+                return BadRequest(result);
+
+            SetRefreshTokenInCookie(result.RefreshToken, result.RefreshTokenExpiration);
+            return Ok(result);
+        }
+        [HttpPost("RevokeToken")]
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> RevokeToken([FromBody] RevokeToken model)
+        {
+            var token = model.Token ?? Request.Cookies["RefreshToken"];
+            if (string.IsNullOrEmpty(token))
+                return BadRequest("Token is Required");
+
+            var result = await _authService.RevokeTokenAsync(token);
+            if (!result)
+                return BadRequest("Token is invalid");
+
+            return Ok(result);
         }
 
         private void SetRefreshTokenInCookie(string refreshToken, DateTime expireOn)

@@ -373,8 +373,8 @@ E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\staticwebassets\Power.
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\staticwebassets\Power.API.StaticWebAssets.xml
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\scopedcss\bundle\Power.API.styles.css
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\Power.API.RazorTargetAssemblyInfo.cache
-E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\Power.API.csproj.CopyComplete
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\Power.API.dll
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\ref\Power.API.dll
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\Power.API.pdb
 E:\Projects\Power-GitHub\Power\Power.API\obj\Debug\net5.0\Power.API.genruntimeconfig.cache
+E:\Projects\Power-GitHub\Power\Power.API\bin\Debug\net5.0\Log\LogAPIJson_20220220.json

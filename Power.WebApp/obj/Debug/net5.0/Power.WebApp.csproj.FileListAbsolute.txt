@@ -210,7 +210,6 @@ E:\Projects\Power-GitHub\Power\Power.WebApp\bin\Debug\net5.0\zh-Hans\Microsoft.C
 E:\Projects\Power-GitHub\Power\Power.WebApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\Projects\Power-GitHub\Power\Power.WebApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 E:\Projects\Power-GitHub\Power\Power.WebApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.csproj.AssemblyReference.cache
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.Resources.PowerWebResource.resources
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.Resources.PowerWebResource.ar.resources
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.csproj.GenerateResource.cache
@@ -246,3 +245,4 @@ E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.dll
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\ref\Power.WebApp.dll
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.pdb
 E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.genruntimeconfig.cache
+E:\Projects\Power-GitHub\Power\Power.WebApp\obj\Debug\net5.0\Power.WebApp.csproj.AssemblyReference.cache

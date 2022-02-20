@@ -12,5 +12,7 @@ namespace Power.Core.Services.Interface
         Task<AuthDTO> RegisterAsync(RegisterDTO dto);
         Task<AuthDTO> GetTokenAsync(TokenRequestDTO dto);
         Task<string> AddRolesAsync(AddRoleDTO dto);
+        Task<AuthDTO> RefreshTokenAsync(string token);
+        Task<bool> RevokeTokenAsync(string token);
     }
 }

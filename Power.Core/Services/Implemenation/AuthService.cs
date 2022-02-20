@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Power.Core.DTOs;
@@ -60,7 +61,7 @@ namespace Power.Core.Services.Implemenation
             var jwtToken = await CreateJwtToken(user);
             var roles = await _userManager.GetRolesAsync(user);
             authDto.Email = user.Email;
-            //ExpireOn = jwtToken.ValidTo,
+            authDto.ExpireOn = jwtToken.ValidTo;
             authDto.IsAuthenticated = true;
             authDto.Roles = roles.ToList();
             authDto.Token = new JwtSecurityTokenHandler().WriteToken(jwtToken);
@@ -81,6 +82,45 @@ namespace Power.Core.Services.Implemenation
                 await _userManager.UpdateAsync(user);
             }
 
+            return authDto;
+        }
+
+        public async Task<AuthDTO> RefreshTokenAsync(string token)
+        {
+            var authDto = new AuthDTO();
+
+            var user = await _userManager.Users.SingleOrDefaultAsync(u => u.RefreshTokens.Any(x => x.Token == token));
+
+            if (user == null)
+            {
+                authDto.Message = "Invalid token";
+                return authDto;
+            }
+
+            var refreshToken = user.RefreshTokens.Single(x => x.Token == token);
+
+            if (!refreshToken.IsActive)
+            {
+                authDto.Message = "Inactive token";
+                return authDto;
+            }
+
+            refreshToken.RevokedOn = DateTime.UtcNow;
+
+            var newFreshToken = GenerateRefreshToken();
+            user.RefreshTokens.Add(newFreshToken);
+            await _userManager.UpdateAsync(user);
+
+            var jwtToken = await CreateJwtToken(user);
+            authDto.IsAuthenticated = true;
+            authDto.Token = new JwtSecurityTokenHandler().WriteToken(jwtToken);
+            authDto.Email = user.Email;
+            authDto.Username = user.UserName;
+
+            var roles = await _userManager.GetRolesAsync(user);
+            authDto.Roles = roles.ToList();
+            authDto.RefreshToken = newFreshToken.Token;
+            authDto.RefreshTokenExpiration = newFreshToken.ExpireOn;
             return authDto;
         }
 
@@ -116,12 +156,29 @@ namespace Power.Core.Services.Implemenation
             return new AuthDTO
             {
                 Email = user.Email,
-                //ExpireOn = jwtToken.ValidTo,
+                ExpireOn = jwtToken.ValidTo,
                 IsAuthenticated = true,
                 Roles = new List<string> { "User" },
                 Token = new JwtSecurityTokenHandler().WriteToken(jwtToken),
                 Username = user.UserName
             };
+        }
+
+        public async Task<bool> RevokeTokenAsync(string token)
+        {
+            var user = await _userManager.Users.SingleOrDefaultAsync(u => u.RefreshTokens.Any(x => x.Token == token));
+
+            if (user == null)
+                return false;
+
+            var refreshToken = user.RefreshTokens.Single(x => x.Token == token);
+
+            if (!refreshToken.IsActive)
+                return false;
+
+            refreshToken.RevokedOn = DateTime.UtcNow;
+            await _userManager.UpdateAsync(user);
+            return true;
         }
 
         private async Task<JwtSecurityToken> CreateJwtToken(User user)

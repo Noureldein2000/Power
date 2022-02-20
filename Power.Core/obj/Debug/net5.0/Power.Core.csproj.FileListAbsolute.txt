@@ -28,7 +28,6 @@ E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.GeneratedM
 E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.AssemblyInfoInputs.cache
 E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.AssemblyInfo.cs
 E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.csproj.CoreCompileInputs.cache
-E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.csproj.CopyComplete
 E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.dll
 E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\ref\Power.Core.dll
 E:\Projects\Power-GitHub\Power\Power.Core\obj\Debug\net5.0\Power.Core.pdb

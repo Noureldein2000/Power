@@ -15,7 +15,7 @@ namespace Power.Core.DTOs
         public string Token { get; set; }
         public bool IsAuthenticated { get; set; }
         public List<string> Roles { get; set; }
-        //public DateTime ExpireOn { get; set; }
+        public DateTime ExpireOn { get; set; }
         [JsonIgnore]
         public string RefreshToken { get; set; }
         public DateTime RefreshTokenExpiration { get; set; }
